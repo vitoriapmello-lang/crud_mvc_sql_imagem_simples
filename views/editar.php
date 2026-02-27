@@ -4,7 +4,7 @@ nome:
  <input type="text" name="nome" value="<?php echo $usuario['nome']; ?>" required><br><br>
 email: 
  <input type="email" name="email" value="<?php echo $usuario['email']; ?>" required><br><br>
- <?php if ($usuario['imagem']): ?>
+ <?php if ($usuario['imagem']) { ?>
     <img src="<?php echo $usuario['imagem']; ?>" width="100"><br><br>
 <?php } ?>
 

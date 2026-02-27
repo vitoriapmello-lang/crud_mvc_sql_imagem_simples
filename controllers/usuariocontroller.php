@@ -21,6 +21,7 @@ if ($acao == 'criar') {
             move_uploaded_file($_FILES['imagem']['tmp_name'], $imagem);
         }
         inserirUsuario($nome, $email, $imagem);
+
         header("Location: index.php");
     } 
     include "views/criar.php";
@@ -40,14 +41,15 @@ if ($acao == 'editar') {
             move_uploaded_file($_FILES['imagem']['tmp_name'], $imagem);
         }
         atualizarUsuario($id, $nome, $email, $imagem);
+
         header("Location: index.php");
     }
     $usuario = buscarUsuario($id);
     include "views/editar.php";
 }
 
-if ($acao == 'deletar') {
+if ($acao == 'excluir') {
 
-    excluirUsuario($id);
+    excluirUsuario($_GET['id']);
     header("Location: index.php");
 }
