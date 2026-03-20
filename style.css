@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/02/93/51/74/360_F_293517487_DZo7xOY0zs0jQHNnKZGXki5q5HmV1fc4.jpg);
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat; 
+    height: 100vh;   
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+nav {
+    background: #3d1d66;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    border-radius: 50%;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #f3be66;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c78210;
+}
+
+/* FORMULÁRIOS */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #3d1d66;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+td img {
+    border-radius: 6px;
+}
+
+td a {
+    margin: 0 5px;
+}
+
+td a:first-child {
+    color: #2d8cff;
+}
+
+td a:last-child {
+    color: #e74c3c;
+}
+
+p[style*="color:red"] {
+    background: #ffe5e5;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ce10fa;
+}

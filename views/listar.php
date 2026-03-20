@@ -12,8 +12,8 @@ th, td {
     padding: 5px;
 }
 </style>
-    <h2> Listar Usuários </h2>
-<a href="index.php?acao=criar">Criar Novo Usuário</a><br><br>
+    <h2> 𝐋𝐢𝐬𝐭𝐚𝐫 𝐔𝐬𝐮𝐚́𝐫𝐢𝐨𝐬 </h2>
+<a href="index.php?acao=criar">𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐚𝐫 𝐍𝐨𝐯𝐨 𝐔𝐬𝐮𝐚́𝐫𝐢𝐨</a><br><br>
 <table border="01">
 
     <tr>
